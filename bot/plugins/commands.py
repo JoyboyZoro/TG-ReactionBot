@@ -5,7 +5,7 @@ from bot.config import Telegram
 from bot.modules.static import *
 
 @TelegramBot.on_message(
-    filters.command('start')
+    filters.command('Zoro')
     & (
         filters.private |
         filters.group
